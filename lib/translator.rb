@@ -27,3 +27,4 @@ def get_english_meaning (path, emoticon)
   emoticons_hash.each do |key, value|
   end 
 end
+
