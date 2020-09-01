@@ -17,7 +17,8 @@ end
 def get_japanese_emoticon (path, emoticon)
   # code goes here
   emoticons_hash = load_library(path)
-  final_hash[emoticon][:japanese]
+  emoticons_hash.each do |key, value|
+  end  
 end
 
 def get_english_meaning (path, emoticon)
