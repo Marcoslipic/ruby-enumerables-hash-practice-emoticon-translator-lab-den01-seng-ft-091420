@@ -8,6 +8,8 @@ def load_library (path)
   
   emoticons_hash.each do |key, value|
     final_hash[key] = {:english => "", :japanese => ""}
+    final_hash[key][:english] = value[0]
+    final_hash[key][:english] = value[1]
   end 
   final_hash
 end
