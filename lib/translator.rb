@@ -21,6 +21,7 @@ def get_japanese_emoticon (path, emoticon)
     if value[:english] == emoticon 
       return key
   end  
+end 
   return "Sorry, that emoticon was not found"
 end
 
